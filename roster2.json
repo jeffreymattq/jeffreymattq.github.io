@@ -1729,7 +1729,7 @@
         "Reach": "75\u00a0in (191\u00a0cm)"
     },
     {
-        "Name": "Abusupiyan Magomedov\n",
+        "Name": "Abus Magomedov\n",
         "Country": [
             "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/ba\/Flag_of_Germany.svg\/23px-Flag_of_Germany.svg.png"
         ],
@@ -3822,7 +3822,7 @@
         "Reach": "69\u00a0in (180\u00a0cm)"
     },
     {
-        "Name": "Yair Rodr\u00edguez",
+        "Name": "Yair Rodriguez",
         "Country": [
             "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fc\/Flag_of_Mexico.svg\/23px-Flag_of_Mexico.svg.png"
         ],
@@ -9280,7 +9280,7 @@
         "Nickname": "\n",
         "Status": "",
         "Record": "9\u20131\n",
-        "ImageLink": "https:\/\/www.sherdog.com\/image_crop\/200\/300\/_images\/fighter\/1611951834Joshua_Silveira.jpg",
+        "ImageLink": "https://pflmma-prod.s3.amazonaws.com/fighters/bodyshots/193027fa65cbc366c452e38f3e98171f.png",
         "BirthDate": "1992-12-25",
         "Reach": "75\u00a0in (191\u00a0cm)"
     },
@@ -10721,7 +10721,7 @@
         "Reach": "73\u00a0in (185\u00a0cm)"
     },
     {
-        "Name": "Tang Kai",
+        "Name": "Kai Tang",
         "Country": [
             "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fa\/Flag_of_the_People%27s_Republic_of_China.svg\/23px-Flag_of_the_People%27s_Republic_of_China.svg.png"
         ],
@@ -19246,7 +19246,7 @@
         "Nickname": "Niedziela",
         "Status": "Bellator 291 (Dublin) - Richie Smullen\n",
         "Record": "17\u20134\n",
-        "ImageLink": "https:\/\/images.tapology.com\/letterbox_images\/72394\/default\/Piotr-Niedzielski.jpg?1581008350",
+        "ImageLink": "https://www.wfc.si/modules/uploader/uploads/fighter/pic/crop2/piotr_niedzielski_min.png",
         "BirthDate": "1991-01-12",
         "Reach": "72\u00a0in (183\u00a0cm)"
     },
@@ -20289,5 +20289,109 @@
         "ImageLink": "https:\/\/dmxg5wxfqgb4u.cloudfront.net\/styles\/athlete_bio_full_body\/s3\/2022-06\/f9d426dd-8ac6-495f-99e3-ee0f234ba507%252FISMAGULOV_DAMIR_L_06-18.png?itok=70joOiF5",
         "BirthDate": "1991-02-03",
         "Reach": "74\u00a0in (188\u00a0cm)"
+    },
+    {
+        "Name": "Kade Ruotolo",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/a4\/Flag_of_the_United_States.svg\/23px-Flag_of_the_United_States.svg.png"
+        ],
+        "Height": "5\u00a0ft 11\u00a0in (1.80\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "24\u20132\n",
+        "ImageLink": "https://staticg.sportskeeda.com/editor/2022/10/f05ee-16667814078951-1920.jpg",
+        "BirthDate": "2003-01-22",
+        "Reach": "75\u00a0in (191\u00a0cm)"
+    },
+    {
+        "Name": "Dmitry Menshikov",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/f\/f3\/Flag_of_Russia.svg\/23px-Flag_of_Russia.svg.png"
+        ],
+        "Height": "5\u00a0ft 11\u00a0in (1.80\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "24\u20132\n",
+        "ImageLink": "https://media.elegantcms.io/a/96dc72d1-4d96-40b8-a3bd-cd44c423ca4b/87d71980-6f9a-47ab-bfcb-aea7f749bcdb/1579840433/o/menshikov.jpg?1579840433",
+        "BirthDate": "1997-12-01",
+        "Reach": "\n"
+    },
+    {
+        "Name": "Movlid Khaybulaev",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/f\/f3\/Flag_of_Russia.svg\/23px-Flag_of_Russia.svg.png"
+        ],
+        "Height": "5\u00a0ft 6\u00a0in (1.68\u00a0m)\n",
+        "Nickname": "Killer\n",
+        "Status": "\n",
+        "Record": "24\u20132\n",
+        "ImageLink": "https://pflmma-prod.s3.amazonaws.com/fighters/bodyshots/40df9c3ad1dda733b9fe0c06116cc463.png",
+        "BirthDate": "1990-10-16",
+        "Reach": "70\u00a0in (178\u00a0cm)"
+    },
+    {
+        "Name": "Will Fleury",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/45\/Flag_of_Ireland.svg\/23px-Flag_of_Ireland.svg.png"
+        ],
+        "Height": "6\u00a0ft 3\u00a0in (1.96\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "12\u20133\n",
+        "ImageLink": "https://pflmma-prod.s3.amazonaws.com/fighters/bodyshots/03fa5d5065adf29b24014eb9a3afb45b-1.png",
+        "BirthDate": "1989-03-13",
+        "Reach": "77\u00a0in (196\u00a0cm)"
+    },
+    {
+        "Name": "Krzysztof Jotko",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/1\/12\/Flag_of_Poland.svg\/23px-Flag_of_Poland.svg.png"
+        ],
+        "Height": "6\u00a0ft 1\u00a0in (1.85\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "12\u20133\n",
+        "ImageLink": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2022-09/JOTKO_KRZYSZTOF_L_10-01.png?itok=WX-mXFBm",
+        "BirthDate": "1989-08-19",
+        "Reach": "77\u00a0in (196\u00a0cm)"
+    },
+    {
+        "Name": "Sedriques Dumas",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a4\/Flag_of_the_United_States.svg\/23px-Flag_of_the_United_States.svg.png"
+        ],
+        "Height": "6\u00a0ft 2\u00a0in (1.88\u00a0m)\n",
+        "Nickname": "The Reaper\n",
+        "Status": "\n",
+        "Record": "12\u20133\n",
+        "ImageLink": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-03/DUMAS_SEDRIQUES_L_03_11.png?itok=ou503GWi",
+        "BirthDate": "1995-08-06",
+        "Reach": "79\u00a0in (201\u00a0cm)"
+    },
+    {
+        "Name": "Bo Nickal",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a4\/Flag_of_the_United_States.svg\/23px-Flag_of_the_United_States.svg.png"
+        ],
+        "Height": "6\u00a0ft 1\u00a0in (1.85\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "12\u20133\n",
+        "ImageLink": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-03/NICKAL_BO_L_03-05.png?itok=BE9wcn33",
+        "BirthDate": "1996-01-14",
+        "Reach": "75\u00a0in (191\u00a0cm)"
+    },
+    {
+        "Name": "Jafel Filho",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/05\/Flag_of_Brazil.svg\/23px-Flag_of_Brazil.svg.png"
+        ],
+        "Height": "5\u00a0ft 7\u00a0in (1.70\u00a0m)\n",
+        "Nickname": "Pastor\n",
+        "Status": "\n",
+        "Record": "12\u20133\n",
+        "ImageLink": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-03/FILHO_JAFEL_L_03-18.png?itok=5wJNZxdU",
+        "BirthDate": "1993-05-05",
+        "Reach": "68.5\u00a0in (174\u00a0cm)"
     }
 ]
