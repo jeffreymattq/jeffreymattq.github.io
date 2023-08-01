@@ -1,0 +1,204 @@
+html{
+    font-size: 22px
+}
+body{
+    background-color: #564A4A;
+    color: whitesmoke;
+    margin: 1rem 0;
+}
+.container{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
+div.hero-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-size: 1.75rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+p{
+    font-size: 1.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body img{
+    width: 400px;
+    justify-content: flex-end;
+    padding-left: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    background-color: #564A4A;
+    color: #564A4A;
+    border-bottom: 2mm ridge whitesmoke;
+}
+
+.navbar img{
+    width: 150px;
+    display: flex;
+    height: auto;
+}
+
+/*container github link*/
+div.github-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.github-link:hover{
+    background-color: #F55C47;
+    border-radius: 10px;
+    transition: 0.4s ease-in;
+    color: whitesmoke;
+}
+
+/*arrow box external link*/
+div.menu img{
+    width: 25px;
+    padding-left: 5px;
+    height: auto;
+}
+
+.nav-links a{
+    color: #9D9D9D;
+}
+.nav-links a:hover{
+    color: whitesmoke;
+}
+
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 1.25rem;
+}
+.menu li:hover{
+    background-color: #F55C47;
+    border-radius: 10px;
+    transition: 0.4s ease-in;
+}
+.menu li a{
+    padding: 5px 14px;
+}
+
+/*checkbox/hamburger*/
+input[type=checkbox]{
+    display: none;
+}
+.hamburger{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/*project cards*/
+.cards-space{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1 1 50%;
+    position: relative;
+    border: 1px solid #efefef;
+    margin: 15px 0;
+    box-shadow: 2px 6px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: #564A4A;
+}
+.card h3{
+    margin: 0;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+.card p{
+    margin: 0 0 30px;
+}
+.card-content{
+    padding: 30px 30px 30px;
+}
+.card-details{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.card-details-inner{
+    border-top: 1px solid #efefef;
+    margin: 0 30px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    display: block;
+    font-size: 1rem;
+    background: #F55C47;
+    border: 1px solid #F55C47;
+    padding: 10px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+}
+.button:hover, .button:focus{
+    background: #e0413b;
+    border: 1px solid #e0413b;
+    color:lightgray
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    color: #9D9D9D;
+    font-size: 1.0rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*mobile design*/
+@media (max-width: 768px){
+    .menu{
+        display: none;
+        position: absolute;
+        background-color: teal;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    .menu li:hover{
+        display: inline-block;
+        background-color: #4AA96C;
+        transition: 0.3s ease;
+    }
+    .menu li + li{
+        margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu {
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+
+}
+
+
