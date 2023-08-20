@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jeffrey Quispe">
+    <meta name="description" content="This webpage showcases my resume,
+            including various projects and skills attributed to myself">
+    <title>Jeffrey Quispe</title>
+    <link rel="icon" href="/static/Asset 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <div class="menu">
+        <img src="/static/cloud.png" class="staticbg-cloud1">
+        <img src="/static/cloud.png" class="staticbg-cloud2">
+        <img src="/static/cloud.png" class="cloud">
+        <div class="toggle">
+            <img src="/static/rabbitVectorStraight.png" class="rabbitV">
+            <img src="/static/laptop vector.png" class="laptop">
+        </div>
+        <li style="--i:0;">
+            <a href="index.html">Home</a>
+        </li>
+        <li style="--i:1;">
+            <a href="about.html">About</a>
+        </li>
+        <li style="--i:2;">
+            <a href="projects.html">Projects</a>
+        </li>
+        <li style="--i:3;">
+            <a href="https://github.com/jeffreymattq" target="_blank">Github</a>
+        </li>
+    </div>
+    <div class="container">
+        <h2 class="herotext reveal fade-left">MMAlert</h2>
+        <div class="hero-wrapper">
+            <header class="herotext reveal fade-left">
+                <p>
+                    As a big fan of sports and live events, I personally find it hard to keep track of live sporting
+                    events regarding the sports that I care enough about to watch live. Other mainstream sports have several capable
+                    apps serving this purpose, but MMA does not have any such apps. 
+                    <br><br>
+                    MMAlert is a
+                    personal project that allows MMA fanatics to keep track of live events occurring within various
+                    regional and global mixed martial arts promotions.
+                    <br><br>
+                    Due to issues within the app reviewing process that involve copyright legalities, the app is not currently out in the public app store.
+                    The plan is to eventually outfit the app appropriately for public release. The slideshow to the right presents advertisements made for its public release, pictures taken in-app.
+                </p>
+            </header>
+            <div class="main-carousel reveal fade-right">
+                <div class="carousel-cell fade">
+                    <br>
+                    <div class="numbertext">1 / 4</div>
+                    <img src="/static/Apple iPhone 11 Pro Max Screenshot 0.png" style="width: 100%;">
+                    <br>
+                </div>
+                <div class="carousel-cell fade">
+                    <br>
+                    <div class="numbertext">2 / 4</div>
+                    <img src="/static/Apple iPhone 11 Pro Max Screenshot 1.png" style="width: 100%;">
+                    <br>
+                </div>
+                <div class="carousel-cell fade">
+                    <br>
+                    <div class="numbertext">3 / 4</div>
+                    <img src="/static/Apple iPhone 11 Pro Max Screenshot 2.png" style="width: 100%;">
+                    <br>
+                </div>
+                <div class="carousel-cell fade">
+                    <br>
+                    <div class="numbertext">4 / 4</div>
+                    <img src="/static/Apple iPhone 11 Pro Max Screenshot 3.png" style="width: 100%;">
+                    <br>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="collapsible"><span>&#8595;</span></button> 
+    <div class="content">
+        <div class="hero-wrapper"></div>
+            <div class="column">
+                <h3>Tech Stack</h3>
+                <span>Python</span>
+                <span>Flask</span>
+                <span>Scrapy</span>
+                <span>JSON</span>
+                <span>Git</span>
+                <span>Photoshop</span>
+                <span>Illustrator</span>
+                <span>SQL</span>
+                <span>Swift</span>
+                <span>API</span>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <hr>
+    <footer class="footer"><caption>Made by Jeffrey Quispe</caption></footer>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let menu = document.querySelector('.menu');
+        toggle.onclick = function () {
+            menu.classList.toggle('active')
+        }
+    </script>
+    <script src="flickity.pkgd.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jeffrey Quispe">
+        <meta name="description" content="This webpage showcases my resume,
+            including various projects and skills attributed to myself">
+        <title>Jeffrey Quispe</title>
+        <link rel="icon" href="/static/Asset 2.png" type="image/x-icon">
+        <link rel = "stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <div class = "menu">
+            <img src="/static/cloud.png" class="staticbg-cloud1">
+            <img src="/static/cloud.png" class="staticbg-cloud2">
+            <img src="/static/cloud.png" class="cloud">
+            <div class = "toggle">
+              <img src="/static/rabbitVectorStraight.png" class="rabbitV">
+              <img src = "/static/laptop vector.png" class="laptop">
+            </div>
+            <li style="--i:0;">
+              <a href="index.html">Home</a>
+            </li>
+            <li style="--i:1;">
+              <a href="about.html">About</a>
+            </li>
+            <li style="--i:2;">
+              <a href="projects.html">Projects</a>
+            </li>
+            <li style="--i:3;">
+              <a href="https://github.com/jeffreymattq" target="_blank">Github</a>
+            </li>
+          </div>
+        <div class="container">
+            <div class="hero-wrapper">
+                <header class="hero text">
+                    <h2>About me</h2>
+                    <p>
+                        Hello, my name is Jeffrey and I am a graduate from 
+                        <abbr title="Florida International University">FIU</abbr> with a bachelors in computer science.
+                        I have built this website to showcase my projects and skills while also
+                        having a personal project of maintaining a website built with html and css.
+                        <br>In my freetime i enjoy taking on personal projects such as this personal website,
+                        purely for my own usage. In similar fashion, I have built my ios app called
+                        MMAlert which I took the time to build for my own personal usage. I am a huge
+                        mixed martial arts fan and needed an ios app that would alert me of when
+                        mma events would be starting. There were no other apps that had this usage for me so I decided
+                        to take on the app development myself and it has resulted in a fully functioning ios app that
+                        fills that niche. 
+                    </p>
+
+                </header>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">Made by Jeffrey Quispe</footer>
+        <script>
+            let toggle = document.querySelector('.toggle');
+            let menu = document.querySelector('.menu');
+            toggle.onclick = function(){
+              menu.classList.toggle('active')
+            }
+          </script>
+    </body>
+</html>

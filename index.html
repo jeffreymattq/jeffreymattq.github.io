@@ -1,1 +1,44 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jeffrey Quispe">
+        <meta name="description" content="This webpage showcases my resume,
+            including various projects and skills attributed to myself">
+        <title>Jeffrey Quispe</title>
+        <link rel="icon" href="/static/Asset 2.png" type="image/x-icon">
+        <link rel = "stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <div class = "menu">
+          <img src='/static/cloud.png' class="bg-cloud1">
+          <img src='/static/cloud.png' class="bg-cloud2">
+          <img src='/static/cloud.png' class="cloud">
+          <div class = "toggle">
+            <img src="/static/rabbitVectorStraight.png" class="rabbitV">
+            <img src = "/static/laptop vector.png" class="laptop">
+          </div>
+          <li style="--i:0;">
+            <a href="index.html">Home</a>
+          </li>
+          <li style="--i:1;">
+            <a href="about.html">About</a>
+          </li>
+          <li style="--i:2;">
+            <a href="projects.html">Projects</a>
+          </li>
+          <li style="--i:3;">
+            <a href="https://github.com/jeffreymattq" target="_blank">Github</a>
+          </li>
+        </div>
+        <hr>
+        <footer class="footer">Made by Jeffrey Quispe</footer>
+        <script>
+          let toggle = document.querySelector('.toggle');
+          let menu = document.querySelector('.menu');
+          toggle.onclick = function(){
+            menu.classList.toggle('active')
+          }
+        </script>
+    </body>
+</html>
