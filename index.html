@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This webpage displays the portfolio of Jeffrey Quispe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeffrey Quispe</title>
+        <link rel="icon" href="/static/Asset 1.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <!-- <img src="static/sunIcon.png"> -->
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <img src="static/sunIcon.png">
+            </label>
+            <nav class="navBar">
+                <ul>
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#">Education/Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bgImage"></div>
+
+        <div class="bodyContainer">
+            <!-- <div class="bgImage"></div> -->
+            <h1 style="margin-top: 150px;">Projects</h1>
+            <div class="glass-card">
+                <div class="card-text">
+                    <h2>MMAlert</h2>
+                    <div class="card-about">
+                        <div class="column">
+                            <span>Scrapy</span>
+                            <span>JSON</span>
+                            <span>Swift</span>
+                            <span>Flask</span>
+                            <span>AWS</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                    <p>
+                        Built using programmatic Swift for the IOS app and JS, HTML, CSS for the webapp, displaying current or upcoming Mixed Martial Arts (MMA) sporting events. Users can track
+                        when each major event occurs and set reminders for the specific time each event begins and have access to a database filled
+                        with individual fighter information. Data is scraped from relevant news sources using Scrapy spiders hosted on an ec2 instance that is scheduled to run using AWS lambda and eventbridge. JSON files
+                        filled with the scraped data is hosted on a github repo and accessed/distributed by an API Flask server hosted on Heroku.
+                    </p>
+                </div>
+                <div class="glass-card-img">
+                    <img id="mmalertWeb" src="static/appSamples/mmalertWebLight.PNG">
+                </div>
+                <img class="iphoneEx" id="mmalertPhone" src="static/appSamples/iphoneMMAlertLight.png">
+                <button class="projSource" onclick="window.open('https://mmalert.app','_blank')">
+                    <span class="front">
+                        <img id="siteLink" src="static/boxArrowUpDark.png">
+                        <span>MMAlert</span>
+                    </span>
+                </button>
+            </div>
+            <div class="glass-card">
+                <div class="card-text">
+                    <h2>Geek-Text-Bookstore</h2>
+                    <div class="card-about">
+                        <div class="column">
+                            <span>Java</span>
+                            <span>Springboot</span>
+                            <span>MySQL</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                    <p>
+                        Coordinated with several group members to create the entire Java Springboot backend for an online bookstore in a
+                        college assignment.Constructed logic behind profile creation and created API paths for profile creation to 
+                        communicate with the MySQL database. Conducted several unit tests for each API path using dummy data.
+                    </p>
+                </div>
+                <div class="glass-card-img">
+                    <img id="geekWeb" src="static/appSamples/geekLight.png">
+                </div>
+                <button class="projSource" onclick="window.open('https://github.com/jrego43/Geek-Text-Bookstore/tree/feature/profile-management','_blank')">
+                    <span class="front">
+                        <img id="githubIcon" src="static/github-mark-dark.png">
+                        <span>Github</span>
+                    </span>
+                </button>
+            </div>
+            <div class="glass-card">
+                <div class="card-text">
+                    <h2>Vocabulary in Reading Study</h2>
+                    <div class="card-about">
+                        <div class="column">
+                            <span>Java</span>
+                            <span>Figma</span>
+                            <span>Springboot</span>
+                            <span>Swagger</span>
+                            <span>Rest API</span>
+                        </div>
+                    </div>
+                    <p>
+                        Revamped UI design for the webapp through wireframe and figma and helped group members fix backend design
+                        bugs. Directed several scrum meetings and documentation for each scrum.
+                    </p>
+                </div>
+                <div class="glass-card-img">
+                    <img id="virsWeb" src="static/appSamples/virsLight.png">
+                </div>
+                <div class="buttonContainer">
+                    <button class="projSource" onclick="window.open('http://myvirs.com/dashboard','_blank')">
+                        <span class="front">
+                            <img id="siteLink" src="static/boxArrowUpDark.png">
+                            <span>MyVirs</span>
+                        </span>
+                    </button>
+                    <button class="projSource" onclick="window.open('https://github.com/VocabularyInReading/VIRS-Vocabulary-In-Reading','_blank')">
+                        <span class="front">
+                            <img id="githubIcon" src="static/github-mark-dark.png">
+                            <span>Github</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="glass-card">
+                <div class="card-text">
+                    <h2>Monitoring and Mitigating Misinformation</h2>
+                    <div class="card-about">
+                        <div class="column">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Figma</span>
+                            <span>Scrum</span>
+                            <span>API</span>
+                            <span>Dash</span>
+                        </div>
+                    </div>
+                    <p>
+                        Shadowed senior group members and helped them with research for relevant data sources to utilize. 
+                        Designed a dark mode feature for the webapp utilizing Python, CSS, Dash, and HTML. 
+                        Drafted UI mockup designs using figma and collaborated with group members in UI design.
+                    </p>
+                </div>
+                <div class="glass-card-img">
+                    <img id="m&mWeb" src="static/appSamples/m&mLight.png">
+                </div>
+            </div>
+            <h1>Skills</h1>
+            <div class="gallery">
+                <div class="gallery-hex">
+                    <img src="static/skills/CSS3_logo_and_wordmark.svg">
+                    <div class="overlay"></div>
+                    <h2>CSS</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/aws.png" style="object-fit: contain;">
+                    <div class="overlay"></div>
+                    <h2>AWS</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/bash.png">
+                    <div class="overlay"></div>
+                    <h2>Bash</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/C_Programming_Language.svg">
+                    <div class="overlay"></div>
+                    <h2>C</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/flask-horizontal.png" style="object-fit: contain;">
+                    <div class="overlay"></div>
+                    <h2>Flask</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/HTML5_Badge_512.png">
+                    <div class="overlay"></div>
+                    <h2>HTML5</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/JavaScript-logo.png">
+                    <div class="overlay"></div>
+                    <h2>JavaScript</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/JSON_vector_logo.svg.png">
+                    <div class="overlay"></div>
+                    <h2>JSON</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/logo-mysql-170x115.png" style="object-fit: contain;">
+                    <div class="overlay"></div>
+                    <h2>MySQL</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/python-logo-only.png">
+                    <div class="overlay"></div>
+                    <h2>Python</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/scrapylogo.png">
+                    <div class="overlay"></div>
+                    <h2>Scrapy</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/Swift_logo_color.svg">
+                    <div class="overlay"></div>
+                    <h2>Swift</h2>
+                </div>
+                <div class="gallery-hex">
+                    <img src="static/skills/Tux.svg.png">
+                    <div class="overlay"></div>
+                    <h2>Linux</h2>
+                </div>
+            </div>
+            <h1>Education - Contact</h1>
+            <div class="container">
+                <div class="card">
+                    <div class="bgImage-card"></div>
+                    <div class="card-img">
+                        <img src="static/FIU_vrt_Color_rev.png">
+                    </div>
+                    <div class="card-details">
+                        <div class="degree">B.S. Computer Science </div>
+                        <div class="school">Florida International University</div>
+    
+                        <div class="card-about">
+                            <div class="item">
+                                <span class="value">2022</span>
+                                <span class="label">Graduated</span>
+                            </div>
+                            <div class="item">
+                                <span class="value">3.23</span>
+                                <span class="label">GPA</span>
+                            </div>
+                        </div>
+    
+                        <div class="skills">
+                            <span class="value">
+                                Major in Computer Science,<br>
+                                Dean's List - Spring 2022
+                            </span>
+                        </div>
+    
+                    </div>
+                    <div class="back side">
+                        <h3 class="name">Jeffrey Quispe</h3>
+                        <div>Full-Stack Mobile Developer</div>      
+                        <div class="info">
+                            <p><span class="property">Email: </span>jeffreymattq2@gmail.com</p>
+                            <p><span class="property">LinkedIn: </span></p>
+                            <p><span class="property">Website: </span></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+                <!-- <div class="card">
+                <div class="card-img">
+                    <img src="static/FIU_vrt_Color_rev.png">
+                </div>
+                <div class="card-details">
+                    <div class="degree">B.S. Computer Science </div>
+                    <div class="school">Florida International University</div>
+
+                    <div class="card-about">
+                        <div class="item">
+                            <span class="value">2022</span>
+                            <span class="label">Graduated</span>
+                        </div>
+                        <div class="item">
+                            <span class="value">3.23</span>
+                            <span class="label">GPA</span>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <span class="value">
+                            Major in Computer Science,<br>
+                            Dean's List - Spring 2022
+                        </span>
+                    </div>
+
+                </div>
+            </div> -->
+
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
