@@ -36,6 +36,9 @@
 /* html,body{
     min-width: 900px;
 } */
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 1rem 0;
     margin-top: 0;
