@@ -89,7 +89,6 @@ if (currentTheme) { //if dark mode has been clicked, then go by whatever the tog
         document.getElementById('geekWeb').src = 'static/appSamples/geekDark.png';
         document.getElementById('siteLink').src = 'static/boxArrowUpLight.png';
         document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[0].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/boxArrowUpLight.png';
-        document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[1].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/github-mark-white.png';
         toggleSwitch.checked = true;
     }
 }
@@ -105,7 +104,6 @@ else{   //if dark mode hasnt been touched then go by system preference
         document.getElementById('geekWeb').src = 'static/appSamples/geekDark.png';
         document.getElementById('siteLink').src = 'static/boxArrowUpLight.png';
         document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[0].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/boxArrowUpLight.png';
-        document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[1].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/github-mark-white.png';
         toggleSwitch.checked = true;
     } 
 }
@@ -122,7 +120,6 @@ function switchTheme(e){
         document.getElementById('geekWeb').src = 'static/appSamples/geekDark.png';
         document.getElementById('siteLink').src = 'static/boxArrowUpLight.png';
         document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[0].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/boxArrowUpLight.png';
-        document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[1].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/github-mark-white.png';
         localStorage.setItem('theme','dark');
     }
     else{
@@ -136,7 +133,6 @@ function switchTheme(e){
         document.getElementById('geekWeb').src = 'static/appSamples/geekLight.png';
         document.getElementById('siteLink').src = 'static/boxArrowUpDark.png';
         document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[0].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/boxArrowUpDark.png';
-        document.getElementsByClassName('buttonContainer')[0].getElementsByClassName('projSource')[1].getElementsByClassName('front')[0].getElementsByTagName('img')[0].src = 'static/github-mark-dark.png';
         localStorage.setItem('theme','light');
     }
 }
