@@ -557,7 +557,7 @@ p {
     width: 100%;
     position: relative;
 }
-.glass-card-img img{
+.glass-card-img #mmalertWeb,.glass-card-img #geekWeb,.glass-card-img #virsWeb, .glass-card-img #m\&mWeb{
     /* height: 100%; */
     /* width: 80%; */
     width: 600px;
@@ -569,6 +569,7 @@ p {
 .iphoneEx{
     position: absolute;
     width: 200px;
+    height: auto;
     right: 0;
     bottom: 0;
 }
