@@ -52,6 +52,9 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+h1:target,h2:target{
+    transition: all 1s ease;
+}
 
 .header{
     position: fixed;
@@ -178,6 +181,7 @@ body{
     margin: 0 auto;
     background-position: center;
     position: fixed;
+    z-index: -1;
     /* background-size: cover; */
     filter:var(--primary-tint-color);
     /* transition: filter 300ms linear; */
@@ -241,70 +245,7 @@ body{
     transition: border-bottom 0.5s ease;
     /* text-align: center; */
 }
-.grayscaleCard{
-    width: 100%;
-    height: 150px;
-    margin: 0 auto;
-    box-shadow: 0 8px 22px 0 rgba(0,0,0,0.37);
-    /* justify-content: center;
-    align-items: center; */
-    border: 1px solid rgba(255,255,255,0.18);
-    border-radius: 20px;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1),rgba(255,255,255,0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    margin-bottom: 50px;
-    cursor: pointer;
 
-    /* background-size: 100px; */
-    /* background-size: cover;
-    background-position: center top; */
-    /* -webkit-filter: grayscale(10%);
-    filter: grayscale(10%); */
-    overflow: hidden;
-    transition: all 0.5s ease, transform 1s, height 1s, width 1s;
-
-}
-.grayscaleCard:hover{
-    border: 2px solid var(--primary-text-color);
-
-}
-.grayscaleCard:hover img{
-    opacity: 0.8;
-    transform: scale(1.05);
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
-.grayscaleCard.active img{
-    opacity: 0.8;
-    transform: scale(1.05);
-    filter: grayscale(0%);
-    -webkit-filter: grayscale(0%);
-}
-.grayscaleCard img{
-    opacity: 0.4;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    transition: all 0.5s ease, opacity 1s ease, transform 1s ease;
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    /* object-position: 0 -50px; */
-}
-.grayscaleCard p{
-    /* bottom: 0; */
-    text-align: left;
-    padding-left: 20px;
-    line-height: 70px;
-    margin: 0 auto;
-    font-size: 2em;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: var(--primary-text-color);
-    transition: color 0.5s ease;
-}
 .textContainer{
     position: absolute;
     /* top: 500px; */
