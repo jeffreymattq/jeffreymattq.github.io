@@ -4022,7 +4022,7 @@
             "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a4\/Flag_of_the_United_States.svg\/23px-Flag_of_the_United_States.svg.png"
         ],
         "Height": "5\u00a0ft 9\u00a0in (1.75\u00a0m)\n",
-        "Nickname": "The Great",
+        "Nickname": "The Great Ape",
         "Status": "Loss -  UFC 282  (Las Vegas)  - Billy Quarantillo\n",
         "Record": "13\u20136\n",
         "ImageLink": "https:\/\/dmxg5wxfqgb4u.cloudfront.net\/styles\/athlete_bio_full_body\/s3\/2021-10\/67241%252Fprofile-galery%252Ffullbodyleft-picture%252FHERNANDEZ_ALEXANDER_L_10-02.png?itok=7xt627Rw",
@@ -20393,5 +20393,187 @@
         "ImageLink": "https://dmxg5wxfqgb4u.cloudfront.net/styles/athlete_bio_full_body/s3/2023-03/FILHO_JAFEL_L_03-18.png?itok=5wJNZxdU",
         "BirthDate": "1993-05-05",
         "Reach": "68.5\u00a0in (174\u00a0cm)"
+    },
+    {
+        "Name":"Diego Lopes",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fc\/Flag_of_Mexico.svg\/23px-Flag_of_Mexico.svg.png"
+        ],
+        "Height": "5\u00a0ft 11\u00a0in (1.80\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "26\u20137\n",
+        "ImageLink": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/5/LOPES_DIEGO_L_09-14.png?itok=M6HzRIKZ",
+        "BirthDate": "1994-12-30",
+        "Reach": "72.5\u00a0in (184\u00a0cm)"
+    },
+    {
+        "Name": "Jean Silva",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/05\/Flag_of_Brazil.svg\/23px-Flag_of_Brazil.svg.png"
+        ],
+        "Height": "5\u00a0ft 7\u00a0in (1.70\u00a0m)\n",
+        "Nickname": "Lord\n",
+        "Status": "\n",
+        "Record": "16\u20132\n",
+        "ImageLink": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-02/SILVA_JEAN_L_02-22.png?itok=OU8Ad-Xw",
+        "BirthDate": "1996-12-13",
+        "Reach": "69\u00a0in (175\u00a0cm)"
+    },
+    {
+        "Name":"Alden Coria",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a4\/Flag_of_the_United_States.svg\/23px-Flag_of_the_United_States.svg.png"
+        ],
+        "Height": "5\u00a0ft 8\u00a0in (1.73\u00a0m)\n",
+        "Nickname": "Cobra\n",
+        "Status": "\n",
+        "Record": "10\u20133\n",
+        "ImageLink": "https://images.tapology.com/letterbox_images/111613/default/Alden_C.jpeg?1693463791",
+        "BirthDate": "1998-04-24",
+        "Reach": "67\u00a0in (170\u00a0cm)"
+    },
+    {
+        "Name":"Alice Pereira",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/05\/Flag_of_Brazil.svg\/23px-Flag_of_Brazil.svg.png"
+        ],
+        "Height": "5\u00a0ft 10\u00a0in (1.77\u00a0m)\n",
+        "Nickname": "Golden Girl\n",
+        "Status": "\n",
+        "Record": "5\u20130\n",
+        "ImageLink": "https://media.jutarnji.hr/images/slike/2025/07/09/k_37139594_640.jpg",
+        "BirthDate": "2005-12-20",
+        "Reach": "71\u00a0in (180\u00a0cm)"
+    },
+    {
+        "Name":"Chris Bungard",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/10\/Flag_of_Scotland.svg\/23px-Flag_of_Scotland.svg.png"
+        ],
+        "Height": "5\u00a0ft 11\u00a0in (1.80\u00a0m)\n",
+        "Nickname": "The Bad Guy\n",
+        "Status": "\n",
+        "Record": "21\u201310\n",
+        "ImageLink": "https://cagewarriors.com/wp-content/uploads/2023/01/Bungard.png",
+        "BirthDate": "1988-12-19",
+        "Reach": "72.5\u00a0in (184\u00a0cm)"
+    },
+    {
+        "Name":"Daniil Donchenko",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/49\/Flag_of_Ukraine.svg\/23px-Flag_of_Ukraine.svg.png"
+        ],
+        "Height": "5\u00a0ft 11\u00a0in (1.80\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "11\u20132\n",
+        "ImageLink": "https://cdn.onefc.com/wp-content/uploads/2023/07/Daniel_Donchenko-hero-1200x1165-1.jpg",
+        "BirthDate": "2001-08-04",
+        "Reach": "\n"
+    },
+    {
+        "Name":"George Hardwick",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/be\/Flag_of_England.svg\/23px-Flag_of_England.svg.png"
+        ],
+        "Height": "5\u00a0ft 10\u00a0in (1.78\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "13\u20133\n",
+        "ImageLink": "https://cagewarriors.com/wp-content/uploads/2022/06/DCX9158-1080x675.jpg",
+        "BirthDate": "1996-12-06",
+        "Reach": "72\u00a0in (183\u00a0cm)"
+    },
+    {
+        "Name":"Jan Quaeyhaegens",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/9\/92\/Flag_of_Belgium_%28civil%29.svg\/23px-Flag_of_Belgium_%28civil%29.svg.png"
+        ],
+        "Height": "5\u00a0ft 11\u00a0in (1.80\u00a0m)\n",
+        "Nickname": "Q-Bomb\n",
+        "Status": "\n",
+        "Record": "12\u20134\n",
+        "ImageLink": "https://usercontent.one/wp/www.kine-atelier.be/wp-content/uploads/2023/02/Jan-Q-2.jpg?media=1714078792",
+        "BirthDate": "1992-12-17",
+        "Reach": "\n"
+    },
+    {
+        "Name":"Jesus Aguilar",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fc\/Flag_of_Mexico.svg\/23px-Flag_of_Mexico.svg.png"
+        ],
+        "Height": "5\u00a0ft 4\u00a0in (1.63\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "11\u20133\n",
+        "ImageLink": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1599500913Jesus_Santos_Aguilar.JPG",
+        "BirthDate": "1996-03-13",
+        "Reach": "62.5\u00a0in (159\u00a0cm)"
+    },
+    {
+        "Name":"Jose Medina",
+        "Country": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/20px-Flag_of_Bolivia.svg.png"
+        ],
+        "Height": "6\u00a0ft 0\u00a0in (1.83\u00a0m)\n",
+        "Nickname": "Chicho\n",
+        "Status": "\n",
+        "Record": "11\u20135\n",
+        "ImageLink": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1712327778405209348_707464284427421_8020929037673228324_n.jpg",
+        "BirthDate": "1991-05-17",
+        "Reach": "74.5\u00a0in (189\u00a0cm)"
+    },
+    {
+        "Name":"Montserrat Rendon",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/fc\/Flag_of_Mexico.svg\/23px-Flag_of_Mexico.svg.png"
+        ],
+        "Height": "5\u00a0ft 8\u00a0in (1.72\u00a0m)\n",
+        "Nickname": "Monster\n",
+        "Status": "\n",
+        "Record": "6\u20131\n",
+        "ImageLink": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220915011122_Montserrat_Rendon.JPG",
+        "BirthDate": "1989-03-16",
+        "Reach": "68\u00a0in (173\u00a0cm)"
+    },
+    {
+        "Name":"Quang Le",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/21\/Flag_of_Vietnam.svg\/23px-Flag_of_Vietnam.svg.png"
+        ],
+        "Height": "5\u00a0ft 6\u00a0in (1.69\u00a0m)\n",
+        "Nickname": "Bang\n",
+        "Status": "\n",
+        "Record": "9\u20132\n",
+        "ImageLink": "https://www.sherdog.com/image_crop/200/300/_images/fighter/20220415082752_Quang_Le.JPG",
+        "BirthDate": "1991-10-18",
+        "Reach": "70\u00a0in (178\u00a0cm)"
+    },
+    {
+        "Name":"Rodrigo Sezinando",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/05\/Flag_of_Brazil.svg\/23px-Flag_of_Brazil.svg.png"
+        ],
+        "Height": "6\u00a0ft 0\u00a0in (1.83\u00a0m)\n",
+        "Nickname": "\n",
+        "Status": "\n",
+        "Record": "8\u20131\n",
+        "ImageLink": "https://cdn.prod.website-files.com/67910c6e6ac46041b009f084/67a61ddcbb1b298f87c9bf5a_SEZINANDO.webp",
+        "BirthDate": "1997-12-11",
+        "Reach": "\n"
+    },
+    {
+        "Name":"Simone Patrizi",
+        "Country": [
+            "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/03\/Flag_of_Italy.svg\/23px-Flag_of_Italy.svg.png"
+        ],
+        "Height": "5\u00a0ft 8\u00a0in (1.73\u00a0m)\n",
+        "Nickname": "The White Shark\n",
+        "Status": "\n",
+        "Record": "7\u20134\n",
+        "ImageLink": "https://www.sherdog.com/image_crop/200/300/_images/fighter/1736268844patrizi.jpg",
+        "BirthDate": "1994-07-21",
+        "Reach": "\n"
     }
 ]
